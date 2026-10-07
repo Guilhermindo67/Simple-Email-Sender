@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".env" />
+  </Folder>
+  <Project Path="EmailSender/EmailSender.csproj" Id="9bedc52b-6ca2-4701-8f27-fce29cabc4b0" />
+</Solution>

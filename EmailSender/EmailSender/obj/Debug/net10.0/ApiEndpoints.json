@@ -1,0 +1,38 @@
+[
+  {
+    "ContainingType": "EmailSender.Controllers.EnviarEmailController",
+    "Method": "HelloWorld",
+    "RelativePath": "api/EnviarEmail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EmailSender.Controllers.EnviarEmailController",
+    "Method": "EnviaEmail",
+    "RelativePath": "api/EnviarEmail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "EmailSender.Controllers.EmailRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
