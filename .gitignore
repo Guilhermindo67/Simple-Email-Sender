@@ -1,0 +1,31 @@
+# Compilação
+[Bb]in/
+[Oo]bj/
+artifacts/
+TestResults/
+
+# Visual Studio e Rider
+.vs/
+.idea/
+*.user
+*.suo
+*.sln.docstates
+
+# Arquivos temporários e logs
+*.log
+*.tmp
+
+# Variáveis de ambiente e configurações com credenciais
+.env
+.env.*
+!.env.example
+appsettings.Local.json
+appsettings.*.Local.json
+
+# Certificados
+*.pfx
+*.p12
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
